@@ -54,5 +54,5 @@ echo -e "
 (___|___|___|___|___|___|___|___|___|___|___|___)
         "
 echo "Complete. You can now browse to the web interface to configure any changes you may need."
-localip=$(hostname -I)
+localip=$(hostname -i)
 echo "This will likely be: http://$localip"
